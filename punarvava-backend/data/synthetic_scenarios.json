@@ -1,0 +1,1142 @@
+[
+  {
+    "scenario_id": "elderly-001",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-1",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-1",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-1",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-002",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-2",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-2",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-2",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-003",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-3",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-3",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-3",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-004",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-4",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-4",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-4",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-005",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-5",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-5",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-5",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-006",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-6",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-6",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-6",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-007",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-7",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-7",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "15:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-7",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-008",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-8",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-8",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-8",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-009",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-9",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-9",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-9",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-010",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-10",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-10",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-10",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-011",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-11",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-11",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-11",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-012",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-12",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-12",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-12",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-013",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-13",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-13",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-13",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-014",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-14",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-14",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-14",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "elderly-015",
+    "pathway": "older_adult_post_surgical",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "08:00",
+      "caregiver_end": "11:30",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-med-15",
+        "name": "Morning prescribed medicine",
+        "start_time": "08:00",
+        "duration_minutes": 10,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM morning prescribed medicine after food",
+        "confirmed": true
+      },
+      {
+        "id": "task-physio-15",
+        "name": "Assisted knee physiotherapy",
+        "start_time": "09:00",
+        "duration_minutes": 45,
+        "needs_caregiver": true,
+        "needs_transport": false,
+        "source_text": "10:30 AM assisted knee physiotherapy 45 minutes caregiver present",
+        "confirmed": true
+      },
+      {
+        "id": "task-wound-15",
+        "name": "Wound dressing check",
+        "start_time": "16:00",
+        "duration_minutes": 20,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "04:00 PM wound dressing check",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-001",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-1",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-1",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-002",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-2",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-2",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-003",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-3",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-3",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-004",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-4",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-4",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-005",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-5",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-5",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-006",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-6",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-6",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-007",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": true,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-7",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-7",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "14:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-008",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-8",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-8",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-009",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-9",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-9",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-010",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-10",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-10",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-011",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-11",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-11",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-012",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-12",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-12",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-013",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-13",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-13",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-014",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-14",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-14",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "scenario_id": "postnatal-015",
+    "pathway": "postnatal_recovery",
+    "has_planted_conflict": false,
+    "constraints": {
+      "caregiver_start": "09:00",
+      "caregiver_end": "13:00",
+      "can_travel_alone": false,
+      "mobility": "walker_assisted"
+    },
+    "tasks": [
+      {
+        "id": "task-feed-15",
+        "name": "Newborn feeding schedule",
+        "start_time": "08:00",
+        "duration_minutes": 30,
+        "needs_caregiver": false,
+        "needs_transport": false,
+        "source_text": "08:00 AM newborn feeding every 2-3 hours",
+        "confirmed": true
+      },
+      {
+        "id": "task-visit-15",
+        "name": "Paediatrician follow-up visit",
+        "start_time": "10:00",
+        "duration_minutes": 60,
+        "needs_caregiver": true,
+        "needs_transport": true,
+        "source_text": "paediatrician follow-up at clinic",
+        "confirmed": true
+      }
+    ]
+  }
+]
