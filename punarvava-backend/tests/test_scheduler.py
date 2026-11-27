@@ -123,7 +123,9 @@ def test_normal_recovery_trend():
     res = analyze_symptom_trends(req)
     assert res.anomaly_detected is False
     assert res.severity == "NORMAL"
-    def test_lstm_autoencoder_detects_multiday_drift():
+
+
+def test_lstm_autoencoder_detects_multiday_drift():
     req = TrendRequest(
         patient_id="patient-002",
         check_ins=[
