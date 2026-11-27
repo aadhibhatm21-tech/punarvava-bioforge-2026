@@ -1,0 +1,11 @@
+﻿SYNTHETIC - NOT A REAL PATIENT RECORD
+Patient: Ananya (demo only)
+Pathway: Postnatal Mother Recovery
+07:00 AM - Iron and calcium supplement, after breakfast.
+09:30 AM - Paediatrician follow-up at clinic, caregiver present, transport required.
+11:00 AM - Pelvic floor physiotherapy exercises (approved by physiotherapist).
+02:00 PM - Newborn weight check and feeding support session.
+06:00 PM - Evening supplement, with food.
+Caregiver available: 09:00 AM to 01:00 PM.
+Independent travel: no.
+This document is synthetic and exists only for hackathon testing.

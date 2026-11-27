@@ -1,0 +1,14 @@
+﻿SYNTHETIC - NOT A REAL PATIENT RECORD
+Patient: Meera (demo only)
+Pathway: Older Adult Post-Surgical Recovery
+08:00 AM - Morning prescribed medicine, after food.
+10:30 AM - Assisted knee physiotherapy, 45 minutes, caregiver present.
+04:00 PM - Wound dressing check.
+06:30 PM - Documented topical regimen, as already approved by clinician.
+08:00 PM - Wellbeing check-in.
+Caregiver available: 08:00 AM to 11:30 AM.
+Mobility: walker-assisted.
+Independent travel: no.
+This document is synthetic and exists only for hackathon testing.
+OCR uncertainty means these remain unconfirmed candidates.
+The source document remains the authority.

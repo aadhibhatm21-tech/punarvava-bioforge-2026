@@ -1,6 +1,10 @@
 from app.schemas import ExtractionRequest
 from app.vault_rag import extract_tasks_from_text
 
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parent.parent / "data"
+
 MEERA = """08:00 AM - Morning prescribed medicine, after food.
 10:30 AM - Assisted knee physiotherapy, 45 minutes, caregiver present.
 04:00 PM - Wound dressing check.
@@ -25,3 +29,18 @@ def test_source_text_is_verbatim():
 
 def test_garbage_time_is_dropped_not_guessed():
     assert run("27:99 PM - mystery").tasks == []
+
+def read(name): return (DATA / name).read_text(encoding="utf-8-sig")
+
+def test_meera_file():
+    r = run(read("synthetic_discharge_meera.txt"))
+    assert [t.start_time for t in r.tasks] == ["08:00", "10:30", "16:00", "18:30", "20:00"]
+    assert r.tasks[1].needs_caregiver and r.tasks[1].duration_minutes == 45
+    assert not any(t.needs_transport for t in r.tasks)   # "clinician" must not trigger transport
+
+def test_postnatal_file():
+    r = run(read("synthetic_discharge_postnatal.txt"))
+    assert len(r.tasks) == 5
+    visit = r.tasks[1]
+    assert visit.start_time == "09:30" and visit.needs_caregiver and visit.needs_transport
+    assert all(t.confirmed is False for t in r.tasks)
