@@ -1,1 +1,0 @@
-# ayush_rules.py

@@ -5,4 +5,4 @@ __pycache__/
 .env
 .env.*
 .pytest_cache/
-.vscode/
+.vscode/dev_server.py
